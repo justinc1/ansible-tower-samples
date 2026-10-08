@@ -1,0 +1,6 @@
+- name: Failing Playbook Sample
+  hosts: all
+  tasks:
+    - name: This task will fail
+      fail:
+        msg: "This playbook is designed to fail for testing purposes"
